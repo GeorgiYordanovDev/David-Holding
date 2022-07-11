@@ -6,7 +6,6 @@ do{
 int check = 0;
 
 for(int i = 1111; i < 9999; i++){
-
     string y = i.ToString();
 
     for(int x = 0; x < y.Length; x++){
@@ -24,5 +23,4 @@ for(int i = 1111; i < 9999; i++){
         Console.WriteLine(i);
     }
     check = 0;
-    
 }
